@@ -28,6 +28,15 @@
       <Extensions>moc;h;cpp</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{aefa88f9-d2d1-45e2-8581-0931e6dd8409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{f7e51940-5db6-4694-8ebe-99dc1c91ce77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{3660837e-5d7d-49f5-8867-d98d9dc460dc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -36,10 +45,25 @@
     <ClCompile Include="Amber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Core\CoreEngine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Input.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Display3D.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="Amber.h">
       <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Core\CoreEngine.h">
+      <Filter>Core</Filter>
+    </QtMoc>
+    <QtMoc Include="Rendering\Display3D.h">
+      <Filter>Rendering</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
@@ -51,5 +75,10 @@
     <QtRcc Include="Amber.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Interface\Input.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
