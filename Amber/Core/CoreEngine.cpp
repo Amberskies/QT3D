@@ -1,12 +1,13 @@
 #include "CoreEngine.h"
 
-CoreEngine::CoreEngine(QObject *parent)
-	: QObject(parent)
+CoreEngine::CoreEngine(Qt3DCore::QEntity *rootEntity) 
+	: m_coreEntity(rootEntity)
 {
 }
 
 CoreEngine::~CoreEngine()
 {
+	qWarning("CoreEngine Shutdown");
 }
 
 void CoreEngine::InitializeEngine()

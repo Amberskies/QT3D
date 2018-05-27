@@ -12,7 +12,9 @@ class Display3D : public Qt3DExtras::Qt3DWindow
 	QWidget *m_3DWidget;
 
 public:
-	Display3D(QScreen *screen = nullptr);
+	explicit Display3D(QScreen *screen = nullptr);
+	virtual ~Display3D();
+	
 	void UpdateDisplay3D();
 	QWidget * get3DWidget();
 

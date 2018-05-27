@@ -10,6 +10,11 @@ Display3D::Display3D(QScreen *screen)
 	m_3DWidget->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
 }
 
+Display3D::~Display3D()
+{
+	qWarning("Display3D Shutdown");
+}
+
 void Display3D::UpdateDisplay3D()
 {
 	Input::update();

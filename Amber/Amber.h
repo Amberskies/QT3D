@@ -4,7 +4,10 @@
 #include <QTimer>
 #include "ui_Amber.h"
 
+#include <Qt3DCore/QEntity>
+
 #include "Rendering/Display3D.h"
+#include "Core/CoreEngine.h"
 
 class Amber : public QMainWindow
 {
@@ -12,7 +15,7 @@ class Amber : public QMainWindow
 
 public:
 	explicit Amber(QWidget *parent = Q_NULLPTR);
-	~Amber();
+	virtual ~Amber();
 
 	void Go();
 
@@ -26,4 +29,6 @@ private:
 	Ui::Amber ui;
 	QTimer m_mainLoop;
 	Display3D *m_display3D;
+	Qt3DCore::QEntity *rootEntity;
+	CoreEngine *m_coreEngine;
 };
