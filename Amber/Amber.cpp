@@ -57,7 +57,7 @@ void Amber::MainUpdate()
 
 void Amber::on_pushButton_clicked()
 {
-	qWarning("Button 1 clicked");
+	m_coreEngine->setScreen(1);
 }
 
 void Amber::on_pushButton_2_clicked()
@@ -67,7 +67,7 @@ void Amber::on_pushButton_2_clicked()
 
 void Amber::on_pushButton_3_clicked()
 {
-	qWarning("Button 3 clicked");
+	m_coreEngine->setScreen(2);
 }
 
 //////////////////////////////////////////////////////////////////////////////////////

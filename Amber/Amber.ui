@@ -448,7 +448,7 @@
     <item>
      <widget class="QPushButton" name="pushButton">
       <property name="text">
-       <string>PushButton 1</string>
+       <string>PushButton 1 - Default</string>
       </property>
      </widget>
     </item>
@@ -459,7 +459,7 @@
         <item>
          <widget class="QPushButton" name="pushButton_3">
           <property name="text">
-           <string>PushButton 3</string>
+           <string>Dice</string>
           </property>
          </widget>
         </item>

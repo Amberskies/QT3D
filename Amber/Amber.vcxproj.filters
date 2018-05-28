@@ -37,11 +37,14 @@
     <Filter Include="Rendering">
       <UniqueIdentifier>{3660837e-5d7d-49f5-8867-d98d9dc460dc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core\Default">
+      <UniqueIdentifier>{7f40c1d3-735b-42f6-84f0-bf0e7c90681a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dice">
+      <UniqueIdentifier>{bf5305f9-f976-431b-9de4-1997f67f6cd9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Amber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -54,6 +57,13 @@
     <ClCompile Include="Rendering\Display3D.cpp">
       <Filter>Rendering</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Core\Default\Default.cpp">
+      <Filter>Core\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dice\Dice.cpp">
+      <Filter>Core\Dice</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="Amber.h">
@@ -64,6 +74,12 @@
     </QtMoc>
     <QtMoc Include="Rendering\Display3D.h">
       <Filter>Rendering</Filter>
+    </QtMoc>
+    <QtMoc Include="Core\Default\Default.h">
+      <Filter>Core\Default</Filter>
+    </QtMoc>
+    <QtMoc Include="Core\Dice\Dice.h">
+      <Filter>Core\Dice</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
@@ -79,9 +95,6 @@
   <ItemGroup>
     <ClInclude Include="Interface\Input.h">
       <Filter>Interface</Filter>
-    </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

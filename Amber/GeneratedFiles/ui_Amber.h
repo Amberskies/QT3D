@@ -186,8 +186,8 @@ public:
     void retranslateUi(QMainWindow *Amber)
     {
         Amber->setWindowTitle(QApplication::translate("Amber", "Amber QT3D", nullptr));
-        pushButton->setText(QApplication::translate("Amber", "PushButton 1", nullptr));
-        pushButton_3->setText(QApplication::translate("Amber", "PushButton 3", nullptr));
+        pushButton->setText(QApplication::translate("Amber", "PushButton 1 - Default", nullptr));
+        pushButton_3->setText(QApplication::translate("Amber", "Dice", nullptr));
         pushButton_4->setText(QApplication::translate("Amber", "PushButton 4", nullptr));
         pushButton_5->setText(QApplication::translate("Amber", "PushButton 5", nullptr));
         pushButton_6->setText(QApplication::translate("Amber", "PushButton 6", nullptr));
