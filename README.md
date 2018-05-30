@@ -15,4 +15,4 @@ It ensures that we are useing the same base Qt3D setup for all our development p
 -added to Github.
 
 Step 4 : Add a core controll and set it to show a dice made with Blender.
-- In Progress
+- discontinued
