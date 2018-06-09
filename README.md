@@ -1,4 +1,4 @@
-# QT3D
+# QT3D in a widget
 Fun with Qt 5.11 in VS2017
 
 Step 1 : download Visual Studio and Qt, setup VS for C++ and add the Qt tool from the marketplace
@@ -15,4 +15,6 @@ It ensures that we are useing the same base Qt3D setup for all our development p
 -added to Github.
 
 Step 4 : Add a core controll and set it to show a dice made with Blender.
+I think i'll leave the rest up to those who are interested ... smiles
+look over at my Qt_Development Repro for full fun and Games.
 - discontinued
